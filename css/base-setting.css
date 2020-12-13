@@ -1,0 +1,16 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; }
+
+a {
+  color: #00bfff; }
+  a:visited {
+    color: #00bfff; }
+
+/* mixin */
+
+/*# sourceMappingURL=base-setting.css.map */

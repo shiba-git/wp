@@ -1,0 +1,44 @@
+$default_font: 'Noto Sans JP', sans-serif;
+$default_textSize: 1.5rem;
+$black: #000;
+$yellow: #000111;
+$lightgray: #a9a9a9;
+$subColor: #24B0B8;
+$mainContentSize: 1080px;
+$leftContentSize: 780px;
+$asideSize: 265px;
+$columnSize: 380px;
+$article-bgc: #fff;
+
+$cate-life: #3cb371;
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: $default_font;
+  font-size: $default_textSize;
+
+  margin: 0;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;// Safari & Chrome for iOS
+  -moz-text-size-adjust:100%;// Firefox for Android
+}
+
+a{
+  color: #00bfff;
+  &:visited{
+    // color: #800080;
+    color: #00bfff;
+  }
+}
+
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+h2{
+  margin: 0;
+}

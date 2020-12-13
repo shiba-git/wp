@@ -1,0 +1,19 @@
+
+/* mixin */
+@mixin borderBottom($color: $yellow) {
+  border-bottom: 1px solid $color;
+}
+@mixin flex($jc: space-between, $ai: center, $fw: nowrap){
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-wrap: $fw;
+}
+@mixin asideTitleStyle(){
+  font-weight: bold;
+  font-size: 1.17em;
+  color: #666;
+  margin: 0;
+}

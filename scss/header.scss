@@ -1,0 +1,25 @@
+header{
+  @include borderBottom();
+}
+.logo{
+  img{
+    width: 55px;
+  }
+}
+.pc-header-wrap{
+    width: $mainContentSize;
+    margin: 0 auto;
+    padding: 10px 0px;
+    @include flex();
+}
+.nav-list{
+  @include flex($jc: flex-end);
+  list-style: none;
+  li{
+    padding: 0 20px;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

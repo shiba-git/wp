@@ -1,0 +1,15 @@
+.screen-reader-text{
+  display: none;
+}
+.nav-links{
+  margin-top: 70px;
+  text-align: center;
+}
+.page-numbers{
+  padding: 5px 13px;
+  border: 1px solid $lightgray;
+}
+.current{
+  background-color: $subColor;
+  color: #fff;
+}

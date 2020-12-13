@@ -1,0 +1,100 @@
+
+aside div:first-child{
+  margin-top: 0;
+}
+.aside-ad{
+  margin-top: 20px;
+}
+.aside-search{
+  position: relative;
+  margin-top: 20px;
+  .aside-search-title{
+    @include asideTitleStyle();
+  }
+  #search_word{
+    margin-top: 10px;
+    width: 189px;
+    height: 35px;
+    border-radius: 0px;
+    color: #666;
+    border: 1px solid #a9a9a9;
+    &:focus{
+      border: 1px solid #a9a9a9;
+    }
+  }
+  #search_submit{
+    position: absolute;
+    top: 29px;
+    right: 0;
+    width: 70px;
+    background-color: $subColor;
+    border: none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+}
+.aside-popular{
+  margin-top: 20px;
+  .aside-popular-title{
+    h3{
+      @include asideTitleStyle();
+    }
+  }
+}
+.aide-popular-list{
+  list-style: none;
+  padding: 0;
+  .aside-popular-item{
+    margin-top: 15px;
+    a{
+      @include flex($jc: flex-start, $ai: flex-start);
+      color: $lightgray;
+      text-decoration: none;
+      h4{
+        margin: 0;
+        font-size: 1.2rem;
+      }
+      img{
+        margin-right: 10px;
+        width: 90px;
+      }
+    }
+  }
+}
+.aside-tag{
+  margin-top: 20px;
+  .aside-tag-title{
+    h3{
+      @include asideTitleStyle();
+    }
+  }
+}
+.aside-tag-list{
+  list-style: none;
+  padding: 0;
+  @include flex($jc: flex-start, $fw: wrap);
+  .aside-tag-item{
+    margin-top: 8px;
+    margin-right: 8px;
+    a{
+      display: block;
+      color: $lightgray;
+      text-decoration: none;
+      padding: 8px 10px 8px 5px;
+      border: 1px solid $lightgray;
+      i{
+        padding: 0 5px;
+      }
+    }
+  }
+}
+.aside-admin{
+  margin-top: 20px;
+  .aside-admin-title{
+    h3{
+      @include asideTitleStyle();
+    }
+  }
+}

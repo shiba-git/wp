@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,OAAO,EAAE,KAAK;;AAEhB,UAAU;EACR,OAAO,EAAE,IAAI",
+"sources": ["../scss/_pc.scss"],
+"names": [],
+"file": "pc.css"
+}

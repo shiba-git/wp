@@ -1,0 +1,20 @@
+footer{
+  margin-top: 120px;
+  border-top: 1px solid $lightgray;
+}
+.foot-list{
+  width: 918px;
+  margin: 0 auto;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  @include flex();
+  a{
+    color: $lightgray;
+    text-decoration: none;
+  }
+}
+.copy{
+  text-align: center;
+  color: $lightgray;
+}

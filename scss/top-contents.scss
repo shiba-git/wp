@@ -1,0 +1,94 @@
+.main-flex{
+  width: $mainContentSize;
+  margin: 30px auto 0px auto;
+  @include flex($ai: flex-start);
+}
+.left-cn{
+  width: $leftContentSize;
+}
+.aside-tag-wrap{
+  width: $asideSize;
+}
+
+
+.article-flex{
+  @include flex($fw: wrap);
+  margin-top: 20px;
+  .article-tag{
+    width: $columnSize;
+  }
+}
+.top-article-tag{
+  position: relative;
+  a{
+    display: block;
+    .top-article-category{
+      position: absolute;
+      top: 10px;
+      left: 0;
+      background-color: $cate-life;
+      color: #fff;
+      padding: 12px 40px;
+    }
+    .top-article-desc{
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+.top-article-desc{
+  box-sizing: border-box;
+  background-color: $article-bgc;
+  opacity: 0.8;
+  padding: 20px;
+  .top-article-tag-title{
+    color: $black;
+    font-size: 2.0rem;
+  }
+  .article-date{
+    display: block;
+    margin-top: 10px;
+    color: $lightgray;
+  }
+}
+
+.article-tag{
+  @extend .top-article-tag;
+  margin-top: 15px;
+  a{
+    .article-category{
+      @extend .top-article-category;
+      padding: 7px 10px;
+    }
+    .top-article-desc{
+      
+      padding: 10px;
+      width: auto;
+      .top-article-tag-title{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+.article-more-btn{
+  margin-top: 20px;
+  a{
+    color: #fff;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: $subColor;
+    text-decoration: none;
+    border: 1px solid #fff;
+    text-align: center;
+    i{
+      margin-left: 15px;
+      margin-top: 3px;
+    }
+  }
+}
